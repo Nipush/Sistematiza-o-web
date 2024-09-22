@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+header nav {
+  background-color: #4CAF50;
+}
+
+header h1 {
+  display: contents;
+}
+
+#hero {
+  background: url('../img/Predio-Hospital.jpg') no-repeat center center/cover;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  color: white;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #fff;
+  color: #4CAF50;
+}
+
+.btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.centraliza .lead {
+  text-align: center;
+}
+
+.card img {
+  height: 186px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f4f4f4;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.service h3 {
+  margin-bottom: 15px;
+  color: #4CAF50;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
